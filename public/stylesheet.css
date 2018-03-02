@@ -1,0 +1,137 @@
+:root {
+  --main-font-color: #303030;
+  --lighter-font: #909090;
+}
+
+body {
+  font-size: 16px;
+  background-color: white;
+}
+
+h1 {
+  color: var(--main-font-color);
+  font-size: 3rem;
+  font-family: 'Plaster', cursive;
+  margin: 1em 0em 1.5em 0em;
+  padding-bottom: 1rem;
+  border-radius: 5px;
+  border-bottom: 2px solid var(--main-font-color);
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  font-weight: 300;
+  font-family: 'Comfortaa', cursive;
+}
+
+td {
+  font-size: 2rem;
+  height: 10rem;
+  width: 10rem;
+  text-align: center;
+  border-radius: 10px;
+  border: 5rem;
+}
+
+#one {
+  transition: background-color 1s ease;
+  background-color: #ffe0e2;
+}
+
+#two {
+  transition: background-color 1s ease;
+  background-color: #ffe0fa;
+}
+
+#three {
+  transition: background-color 1s ease;
+  background-color: #f2e0ff;
+}
+
+#four {
+  transition: background-color 1s ease;
+  background-color: #e0e9ff;
+}
+
+#five {
+  transition: background-color 1s ease;
+  background-color: #e0fdff;
+}
+
+#six {
+  transition: background-color 1s ease;
+  background-color: #e0ffeb;
+}
+
+#seven {
+  transition: background-color 1s ease;
+  background-color: #faffe0;
+}
+
+#eight {
+  transition: background-color 1s ease;
+  background-color: #fff1e0;
+}
+
+#nine {
+  transition: background-color 1s ease;
+  background-color: #ffe0e0;
+}
+
+#one:hover {
+  background-color: white;
+}
+
+#two:hover {
+  background-color: white;
+}
+
+#three:hover {
+  background-color: white;
+}
+
+#four:hover {
+  background-color: white;
+}
+
+#five:hover {
+  background-color: white;
+}
+
+#six:hover {
+  background-color: white;
+}
+
+#seven:hover {
+  background-color: white;
+}
+
+#eight:hover {
+  background-color: white;
+}
+
+#nine:hover {
+  background-color: white;
+}
+
+.howto-button {
+  margin-top: 4rem;
+  z-index: 5;
+  color: var(--main-font-color);
+}
+
+p {
+  display: none;
+  color: var(--main-font-color);
+  border: 1px solid var(--lighter-font);
+  border-top: none;
+  border-radius: 30px;
+  padding: 1rem;
+  margin-top: -0.5rem;
+}
